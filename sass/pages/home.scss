@@ -1,0 +1,43 @@
+.container00 {
+  &.container01 {
+    background-image: url(../img/home/01.jpg);
+  }
+
+  &.container02 {
+    background-image: url(../img/home/03.jpg);
+  }
+
+  &.container03 {
+    background-image: url(../img/home/02.gif);
+  }
+
+  &.container04 {
+    background-image: url(../img/home/04.jpg);
+  }
+}
+
+.title-padding {
+  padding-top: 200px;
+}
+
+.padding-button {
+  padding: $padding-button;
+}
+
+.footer {
+  background-color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $copy-color;
+  padding: 35px 0px;
+}
+
+.size-icon {
+  font-size: 20px;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
