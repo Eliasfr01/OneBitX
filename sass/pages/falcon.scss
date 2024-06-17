@@ -35,11 +35,18 @@
   font-weight: 500;
 }
 
+.text-falcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .change-text {
-  padding-top: 115px;
-  font-size: 22px;
+  padding-top: 10%;
+  font-size: 20px;
   line-height: 50px;
-  padding-left: 100px;
+  padding-left: 8%;
 }
 
 .text-color {
@@ -68,4 +75,68 @@
 .btn-change {
   border: 2px solid white;
   padding: $padding-button;
+}
+
+@media (max-width: 1024px) {
+  .title-values {
+    font-size: 50px;
+  }
+  .change-text {
+    font-size: 15px;
+  }
+  .overView-position {
+    display: block;
+    width: 500px;
+    margin-left: 8%;
+    padding-top: 12%;
+  }
+}
+
+@media (max-width: 555px) {
+  .title-falcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+  }
+  .responsive-fit {
+    font-size: 13px;
+    padding-bottom: 15px;
+    margin-bottom: -5px;
+  }
+  .text-falcon {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-falcon {
+    display: flex;
+    justify-content: center;
+  }
+  .change-text{
+    padding-top: 5%;
+    line-height: 25px;
+  }
+  .overView-position {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+  }
+  .info-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    button {
+      margin-top: 15px;
+    }
+  }
+  .title-padding {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
